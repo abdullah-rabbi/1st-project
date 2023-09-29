@@ -1,10 +1,41 @@
 body{
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+.top-section{
+    display: flex;
+    text-decoration: column;
+    align-items: center;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0.1)), url("img/head pic.jpg");
+    padding: 120px 20%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-img{
-    width: 1250px; height: 600px;
+.title{
+    font: 60px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+
 }
+
+.pra{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    text-align: center;
+
+}
+
+.para{
+    text-align: center;
+}
+
+
 
 .top-section h1{
     font-size: 50px;
@@ -14,7 +45,7 @@ img{
 .btn{
     text-decoration: none;
     background-image: linear-gradient(to bottom, #E9B824, #EE9322);
-    padding: 10px 30px;
+    padding: 5px 20px;
     color: #fff;
     border-radius: 7px;
 }
@@ -23,4 +54,40 @@ img{
     background-image: linear-gradient(to bottom, #FFCC70, #FFCF9D);   
 }
 
+.Donate{
+    font-size: 40px;
+    color: #000000;
+    font-family: 'Bree Serif', serif;
+    text-align: center; 
+}
 
+.fall{
+    font-size: 20px;
+    color: #000000;
+    font-family: 'Onest', sans-serif;
+    text-align: center; 
+}
+
+.our{
+    display: flex;
+}
+
+h2{
+    color: #EE9322;
+}
+
+.under-section-item{
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.2);
+    padding: 25px;
+    margin: 30px;
+    border-left: 5px solid  #C70039;
+    border-right: 5px solid  #C70039;
+}
+
+.under-section-item1{
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.2);
+    padding: 25px;
+    margin: 30px;
+    border-left: 5px solid  #C70039; 
+    border-right: 5px solid  #C70039;  
+}
