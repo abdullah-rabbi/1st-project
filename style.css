@@ -1,9 +1,10 @@
-body{
+body {
     font-size: 18px;
     font-weight: 400;
     margin: 0;
 }
-.top-section{
+
+.top-section {
     display: flex;
     text-decoration: column;
     align-items: center;
@@ -14,7 +15,7 @@ body{
     background-size: cover;
 }
 
-.title{
+.title {
     font: 60px;
     color: #fff;
     font-weight: 700;
@@ -23,7 +24,7 @@ body{
 
 }
 
-.pra{
+.pra {
     color: #fff;
     font-size: 15px;
     font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -31,18 +32,18 @@ body{
 
 }
 
-.para{
+.para {
     text-align: center;
 }
 
 
 
-.top-section h1{
+.top-section h1 {
     font-size: 50px;
     display: flex;
 }
 
-.btn{
+.btn {
     text-decoration: none;
     background-image: linear-gradient(to bottom, #E9B824, #EE9322);
     padding: 5px 20px;
@@ -50,44 +51,67 @@ body{
     border-radius: 7px;
 }
 
-.btn:hover{
-    background-image: linear-gradient(to bottom, #FFCC70, #FFCF9D);   
+.btn:hover {
+    background-image: linear-gradient(to bottom, #FFCC70, #FFCF9D);
 }
 
-.Donate{
+.Donate {
     font-size: 40px;
     color: #000000;
     font-family: 'Bree Serif', serif;
-    text-align: center; 
+    text-align: center;
 }
 
-.fall{
+.fall {
     font-size: 20px;
     color: #000000;
     font-family: 'Onest', sans-serif;
-    text-align: center; 
+    text-align: center;
 }
 
-.our{
+.our {
     display: flex;
 }
 
-h2{
+h2 {
     color: #EE9322;
 }
 
-.under-section-item{
+.under-section-item {
     box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.2);
     padding: 25px;
     margin: 30px;
-    border-left: 5px solid  #C70039;
-    border-right: 5px solid  #C70039;
+    border-left: 5px solid #C70039;
+    border-right: 5px solid #C70039;
+    background-color: #DAD4B5;
 }
 
-.under-section-item1{
+.under-section-item1 {
     box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.2);
     padding: 25px;
     margin: 30px;
-    border-left: 5px solid  #C70039; 
-    border-right: 5px solid  #C70039;  
+    border-left: 5px solid #C70039;
+    border-right: 5px solid #C70039;
+    background-color: #FFEEF4;
+}
+
+.down-section{
+    display: flex;
+    padding: 0px 8%;
+    align-items: center;
+}
+.you{
+    font-family: 'Onest', sans-serif;
+    font-size: 40px;
+    padding: 0% 7%;
+}
+.lorem{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0% 7%;
+}
+.down{
+    padding: 5% 0px;
+}
+.bnt{
+    padding: 0% 7%; 
 }
