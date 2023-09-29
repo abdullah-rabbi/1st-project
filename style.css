@@ -115,3 +115,11 @@ h2 {
 .bnt{
     padding: 0% 7%; 
 }
+
+
+
+.pic-2{
+    display: flex;
+    padding: 10px 12%;
+    align-items: center;
+}
