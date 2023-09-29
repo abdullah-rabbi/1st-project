@@ -32,16 +32,17 @@ body {
 
 }
 
+
 .para {
     text-align: center;
 }
-
 
 
 .top-section h1 {
     font-size: 50px;
     display: flex;
 }
+
 
 .btn {
     text-decoration: none;
@@ -51,9 +52,11 @@ body {
     border-radius: 7px;
 }
 
+
 .btn:hover {
     background-image: linear-gradient(to bottom, #FFCC70, #FFCF9D);
 }
+
 
 .Donate {
     font-size: 40px;
@@ -62,6 +65,7 @@ body {
     text-align: center;
 }
 
+
 .fall {
     font-size: 20px;
     color: #000000;
@@ -69,9 +73,11 @@ body {
     text-align: center;
 }
 
+
 .our {
     display: flex;
 }
+
 
 h2 {
     color: #EE9322;
@@ -95,31 +101,60 @@ h2 {
     background-color: #FFEEF4;
 }
 
+.under-section-item2 {
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.2);
+    padding: 25px;
+    margin: 30px;
+    border-left: 5px solid #C70039;
+    border-right: 5px solid #C70039;
+    background-color: #9ee498;
+}
+
+
 .down-section{
     display: flex;
     padding: 0px 8%;
     align-items: center;
 }
+
+
 .you{
     font-family: 'Onest', sans-serif;
     font-size: 40px;
     padding: 0% 7%;
 }
+
+
 .lorem{
     font-family: 'Open Sans', sans-serif;
     padding: 0% 7%;
 }
+
+
 .down{
     padding: 5% 0px;
 }
+
+
 .bnt{
     padding: 0% 7%; 
 }
-
 
 
 .pic-2{
     display: flex;
     padding: 10px 12%;
     align-items: center;
+}
+
+
+footer{
+    text-align: center;
+    padding: 15px;
+}
+
+
+samp{
+    color: #C70039;
+
 }
